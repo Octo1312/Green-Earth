@@ -30,7 +30,7 @@ header {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -99,7 +99,7 @@ img {
 .hand {
     width: 40%;
     border-top-left-radius: 1.5rem;
-    box-shadow: 20px 20px 20px #01533A;
+    box-shadow: 15px 15px 0px 0px #054D3B;
 }
 
 .agissons h1 {
@@ -145,4 +145,93 @@ img {
     padding-bottom: 5%;
     font-family: "DMSans Bold";
     font-size: 2rem;
+}
+
+.ourmission {
+    background-image: url("../img/img/farmer-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.notremission h2, .notremission p {
+    padding-right: 5%;
+}
+
+.mission {
+    display: flex;
+    background-color: white;
+    padding: 4%;
+    border-radius: 1rem;
+}
+
+.serre {
+    width: 35%;
+    object-fit: contain;
+}
+
+.ouraction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 5%;
+    row-gap: 10%;
+    font-family: "DMSans Regular";
+    font-size: 1rem;
+}
+
+.ourmission .moreabout {
+    padding: 2%;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid yellowgreen;
+    border-radius: 1rem;
+}
+
+.card > * {
+    margin: 0;
+}
+
+.tag {
+    background-color: #fbf3e86e;
+    border: 1px solid white;
+    color: black;
+    border-radius: 1rem;
+    padding: 2%;
+}
+
+.article {
+    text-decoration: underline;
+    color: orange;
+    font-family: "DMSans Regular";
+    font-size: 1.5rem;
+}
+.lastnews {
+    padding: 5% 0;
+}
+.lastnews .img {
+    border-radius: 2rem;
+    max-height: 40%;
+    max-width: 100%;
+}
+
+.fontedesglaces {
+    display: flex;
+    gap: 2%;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+}
+
+.iceberg {
+    width: 50%;
+    object-fit: cover;
+}
+.actu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
+    padding: 0;
 }
