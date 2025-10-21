@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "DMSans Regular";
+    src: url("../fonts/DM_Sans/static/DMSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DMSans Bold";
+    src: url("../fonts/DM_Sans/static/DMSans-Bold.ttf");
+}
+
+
+body {
+    font-family: "DMSans Regular", "DMSans Bold";
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
