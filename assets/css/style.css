@@ -17,6 +17,7 @@ body {
     font-family: "DMSans Regular", "DMSans Bold";
     background-color: #FBF3E8;
     margin: 0;
+    color: #000000;
 }
 
 header {
@@ -55,15 +56,19 @@ a {
     align-items: center;
 }
 
-.btndon {
-    background: #2a6936;
-    background: linear-gradient(90deg, rgba(42, 105, 54, 1) 0%, rgba(78, 163, 57, 1) 50%, rgba(152, 214, 64, 1) 100%);
+.btn {
     height: 15%;
     width: 20%;
     padding: 1%;
     border-radius: 1rem;
     color: white;
     text-align: center;
+    display: inline-block;
+}
+
+.don {
+    background: #2a6936;
+    background: linear-gradient(90deg, rgba(42, 105, 54, 1) 0%, rgba(78, 163, 57, 1) 50%, rgba(152, 214, 64, 1) 100%);
 }
 
 .bottomnav {
@@ -75,4 +80,69 @@ a {
 .bottomnav a {
     color: #42435F;
     font-family: "DMSans Bold";
+}
+
+.agir {
+    display: flex;
+    padding: 5% 0;
+    gap: 3%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.agissons {
+    width: 50%;
+}
+
+.hand {
+    width: 40%;
+    border-top-left-radius: 1.5rem;
+    box-shadow: 20px 20px 20px #01533A;
+}
+
+.agissons h1 {
+    font-family: "DMSans Bold";
+    font-size: 4rem;
+    margin: 0;
+}
+
+.agissons h2, p {
+    font-size: 1.5rem;
+}
+
+.moreabout {
+    background-color: #01533A;
+    font-family: "DMSans Bold";
+    font-size: 1rem;
+    padding: 3%;
+}
+
+.nosprojets {
+    padding: 5% 0;
+}
+
+.nosprojets h2 {
+    font-family: "DMSans Bold";
+    font-size: 3rem;
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+
+.reforestation, .nettoyage, .energy, .protection, .education, .dechets {
+    background-color: white;
+    padding: 6%;
+}
+
+.reforestation h2, .nettoyage h2, .energy h2, .protection h2, .education h2, .dechets h2 {
+    border-bottom: 1px solid #799E29;
+    padding-bottom: 5%;
+    font-family: "DMSans Bold";
+    font-size: 2rem;
 }
